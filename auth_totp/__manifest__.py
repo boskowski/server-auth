@@ -15,7 +15,7 @@
         'python': ['pyotp'],
     },
     'depends': [
-        'web',
+        'web','auth_ldap'
     ],
     'data': [
         'data/ir_config_parameter.xml',
